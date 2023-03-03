@@ -1,0 +1,102 @@
+@media screen and (min-width: 1200px) {
+    .container{
+        max-width: 1158px;
+    }
+    .section {
+        padding: 120px 0;
+    }
+    .address-list {
+        display: flex;
+        gap: 40px;
+        margin-left: auto;
+    }
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg-pc-2x-min.jpg);;
+    }
+    }
+    .hero {
+        padding: 188px 0;
+    }
+    .hero-title {
+        margin-bottom: 48px;
+        max-width: 496px;
+        font-size: 56px;
+        line-height: 1.07;
+
+    }
+    .about-icon-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    }
+    .about-icon-item {
+        width: 264px;
+        height: 112px;
+        margin-bottom: 8px;
+        border-radius: 4px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--third-background-color);
+    }
+    .about-list {
+        display: flex;
+        gap: 24px;
+    }
+    .about-item {
+        width: 264px;
+    }
+    .about-item-title {
+        margin-bottom: 8px;
+    }
+    
+    .product {
+        display: block;
+        padding-top: 0;
+    }    
+    .product-title {
+        margin: 0 auto 72px auto;
+    }
+    .product-list {
+        display: flex;
+        gap: 24px;
+    
+    }
+    .product-img {
+        width: calc((100%-48)/3);
+    
+    }
+    .team > .container {
+        width: 1158px;
+        margin: 0 auto;
+    }
+    
+    .customers-list {
+        display: flex;
+        gap: 24px;
+        flex-wrap: nowrap;
+    }
+    .footer {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .footer-container {
+        width: 1158px;
+        
+        display: flex;
+        gap: 80px;
+    }
+    .container-foot-tab {
+        gap: 120px;
+    }
+    .subscribe-label {
+        margin-top: 0;
+    }
+
+    .modal {
+        max-width: 408px;
+    }
+}
