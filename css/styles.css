@@ -343,6 +343,9 @@ img {
     text-align: center;
     
 }
+.about-item-text {
+    margin: 0 auto;
+}
 
 
 /*--------------------product-----------------*/
