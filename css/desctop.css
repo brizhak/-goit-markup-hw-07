@@ -30,6 +30,9 @@
         line-height: 1.07;
 
     }
+    .modal {
+        max-width: 408px;
+    }
     .about-icon-list {
     display: flex;
     justify-content: center;
@@ -98,8 +101,15 @@
     .subscribe-label {
         margin-top: 0;
     }
-
-    .modal {
-        max-width: 408px;
+    .portfolio {
+        padding-top: 100px;
     }
+    .portfolio-list-btn {
+        margin-bottom: 72px;
+    }
+    .portfolio-item {
+    width: ((100%-(2*24))/3);
+    }
+
+    
 }

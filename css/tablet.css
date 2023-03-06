@@ -2,6 +2,10 @@
     .container{
         max-width: 768px;
     }
+    .section {
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
     
     .nav-list {
         display: flex;
@@ -143,6 +147,28 @@
     }
     .subscribe-btn {
         margin: 0;
+    }
+    .portfolio {
+        padding-top: 64px;
+        
+    }
+    .portfolio-list-btn {
+        margin-bottom: 64px;
+        justify-content: center;
+        flex-wrap: nowrap;
+    }
+    .portfolio-btn {
+        padding: 12px 24px;
+    }
+    .portfolio-list-img {
+        flex-direction: row;
+        flex-wrap: wrap;
+        column-gap: 24px;
+        row-gap: 72px;
+    }
+    .portfolio-item {
+        max-width: 356px;
+        margin: 0 0 0 0;
     }
 }
     
